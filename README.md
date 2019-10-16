@@ -5,6 +5,45 @@ Desenvolver um algoritmo de análise de sentimentos a partir de imagens faciais 
 
 ## Como acessar
 
+1. Acesse o [link](analitica.big.intranet.bb.com.br) da Plataforma Analítica. Entre com chave e senha do SISBB:
+
+<img src="img/criacao-projeto-1.png">
+
+2. Selecione no menu lateral a opção Projetos ->  Novo Projeto:
+
+<img src="img/criacao-projeto-2.png">
+
+3. Selecione a opção que permite uso do **pip**:
+
+<img src="img/criacao-projeto-3.png">
+
+4. Dê um nome ao seu projeto e clique em **Salvar**:
+
+<img src="img/criacao-projeto-4.png">
+
+5. Aguarde até que o estado do projeto esteja **Ativo** (cerca de 2 minutos) e clique no botão **Abrir** que irá aparecer:
+
+<img src="img/criacao-projeto-5.png">
+
+6. Será aberto editor Jupyter Lab. Crie um notebook clicando no **ícone Python 3**, na aba Launcher:
+
+<img src="img/criacao-projeto-6.png">
+
+7. Você pode instalar as bibliotecas necessárias com o comando 
+
+```sh
+
+!pip install <biblioteca> --user
+
+```
+
+e teclando *Ctrl+Enter* na célula.
+
+Exemplo:
+
+<img src="img/criacao-projeto-7.png">
+
+
 ## Aonde consigo materiais para me ajudar
 É possível encontrar materiais de apoio no site da OpenCV (https://opencv.org/) e no site da Dlib (http://dlib.net).
 No site da OpenCV pode-se encontrar algoritmos de detecção facial, por exemplo em https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html, ou em sites de terceiros como https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81, que serão necessários para detectar as faces nas imagens.
