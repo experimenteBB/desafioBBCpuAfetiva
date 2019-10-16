@@ -14,8 +14,10 @@ No site da dlib pode-se também detectar faces e pontos "especiais" (canto dos o
 Vale consultar o Google!
  
 A base de imagens faciais de brasileiros para a configuração/treinamento de seu método está disponível na Plataforma Analítica. Cada pessoa da base possui uma pasta com cinco imagens, cada uma delas contendo uma imagem facial exibindo um dos 5 principais sentimentos a ser analisados: neutro, feliz, triste, surpreso e bravo. As imagens de cada indivíduo já estão nomeadas nesta ordem para facilitar sua identificação, por exemplo, a imagem "s001-00_img.bmp" ilustra a pessoa s001 com a face neutra; a imagem  "s001-01_img.bmp" ilustra a pessoa s001 com a face feliz; a "s001-02_img.bmp" com a face triste; a "s001-03_img.bmp" com a face surpresa; e a "s001-04_img.bmp" com a face brava.
- 
+
 Utilizem a imaginação e as bibliotecas disponibilizadas para extrair as melhores características e classificar o máximo de imagens corretamente.
+
+Obs: A base de dados fornecida é exclusivamente para pesquisa. Não a utilize para fins comerciais.
 
 ## Aonde e como entregar
 
