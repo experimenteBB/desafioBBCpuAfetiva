@@ -1,11 +1,11 @@
 # Desafio BB Experimente de Computação Afetiva
 
-# Qual desafio
+## Qual desafio
 Desenvolver um algoritmo de análise de sentimentos a partir de imagens faciais de brasileiros utilizando Inteligência Artificial e Processamento de Imagens.
 
-# Como acessar
+## Como acessar
 
-# Aonde consigo materiais para me ajudar
+## Aonde consigo materiais para me ajudar
 É possível encontrar materiais de apoio no site da OpenCV (https://opencv.org/) e no site da Dlib (http://dlib.net).
 No site da OpenCV pode-se encontrar algoritmos de detecção facial, por exemplo em https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html, ou em sites de terceiros como https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81, que serão necessários para detectar as faces nas imagens.
  
@@ -17,7 +17,7 @@ A base de imagens faciais de brasileiros para a configuração/treinamento de se
  
 Utilizem a imaginação e as bibliotecas disponibilizadas para extrair as melhores características e classificar o máximo de imagens corretamente.
 
-# Aonde e como entregar
+## Aonde e como entregar
 
 Ao final, juntamente com seu código, você deverá entregar, na Plataforma Analítica, um binário que receba uma imagem e gere uma saída inteira representando a emoção facial na imagem: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo. Testaremos seu código e binário em outra bases de imagens faciais brasileiras com as mesmas expressões faciais para vermos quão robusto é seu método e divulgaremos o resultado também na Plataforma.
  
