@@ -5,7 +5,7 @@ Desenvolver um algoritmo de análise de sentimentos a partir de imagens faciais 
 
 ## Como acessar
 
-1. Acesse o [link](http://analitica.big.intranet.bb.com.br){:target="_blank"} da Plataforma Analítica. Entre com chave e senha do SISBB:
+1. Acesse o [link](http://analitica.big.intranet.bb.com.br) da Plataforma Analítica. Entre com chave e senha do SISBB:
 
 <img src="img/criacao-projeto-1.png">
 
