@@ -60,6 +60,6 @@ Obs: A base de dados fornecida é exclusivamente para pesquisa. Não a utilize p
 
 ## Aonde e como entregar
 
-Ao final, juntamente com seu código, você deverá entregar, na Plataforma Analítica, um binário que receba uma imagem e gere uma saída inteira representando a emoção facial na imagem: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo. Testaremos seu código e binário em outra bases de imagens faciais brasileiras com as mesmas expressões faciais para vermos quão robusto é seu método e divulgaremos o resultado também na Plataforma.
+Ao final, juntamente com seu código, você deverá fazer o upload, na Plataforma Analítica, de um binário gerado a partir de seu código que receba uma imagem de teste e gere uma saída inteira representando a emoção facial na imagem: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo. Avaliaremos seu código e testaremos seu binário em outra bases de imagens faciais brasileiras, com as mesmas expressões faciais, para vermos quão robusto ele é (isto é, quantas faces/expressões são classificadas corretamente na nossa base de teste) e divulgaremos o resultado na Plataforma.
  
 Bom trabalho!
