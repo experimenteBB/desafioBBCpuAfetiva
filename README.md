@@ -60,6 +60,10 @@ Obs: A base de dados fornecida é exclusivamente para pesquisa. Não a utilize p
 
 ## Aonde e como entregar
 
-Ao final, juntamente com seu código, você deverá fazer o upload, na Plataforma Analítica, de um binário gerado a partir de seu código que receba uma imagem de teste e gere uma saída inteira representando a emoção facial na imagem: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo. Avaliaremos seu código e testaremos seu binário em outra bases de imagens faciais brasileiras, com as mesmas expressões faciais, para vermos quão robusto ele é (isto é, quantas faces/expressões são classificadas corretamente na nossa base de teste) e divulgaremos o resultado na Plataforma.
- 
+Ao final, juntamente com seu código (como por exemplo o seu jupyter notebok criado), você deverá enviar um script (arquivo .py) na Plataforma Analítica. Neste script, deve haver uma função *main()* que receberá uma imagem e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
+
+Você pode projetar seu modelo de classificação da forma que achar mais adequada, use a criatividade para isso. E lembre-se de criar um script para que possamos testar seu modelo em outras bases. 
+
+Avaliaremos seu código e testaremos script em outra base de imagens faciais brasileiras, com as mesmas expressões faciais, para vermos quão robusto ele é (isto é, quantas faces/expressões são classificadas corretamente na nossa base de teste) e divulgaremos, ao final do evento, o resultado na Plataforma.
+
 Bom trabalho!
