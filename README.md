@@ -59,8 +59,25 @@ Utilizem a imaginação e as bibliotecas disponibilizadas para extrair as melhor
 Obs: A base de dados fornecida é exclusivamente para pesquisa. Não a utilize para fins comerciais.
 
 ## Aonde e como entregar
+A entrega do desafio será feita por meio do **fork** deste repositório. Para isso, siga as seguintes instruções:
 
-Ao final, juntamente com seu código (como por exemplo o seu jupyter notebok criado), você deverá enviar um script (arquivo .py) na Plataforma Analítica. Neste script, deve haver uma função *main()* que receberá uma imagem e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
+1) Logue na sua conta do Github e em seguida acesse o repositório do [desafio BB](https://github.com/experimenteBB/desafioBBCpuAfetiva). Na página do repositório, clique no botão **Fork** localizado no canto superior direito da página:
+
+<img src="img/fork_1.png">
+
+2) Uma nova tela será aberta. Selecione a sua conta do GitHub para iniciar o fork do repositório:
+
+<img src="img/fork_2.png">
+
+3) Uma cópia do repositório será feita para seu usuário. Aguarde por alguns minutos. A figura a seguir é exibida enquando o GitHub cria uam cópia para você.
+
+<img src="img/fork_3.png">
+
+4) Quando o **fork** do repositório for concluído, você será redirecionado automaticamente para a cópia do repositório na sua conta do GtiHub. Para confirmar que a cópia foi feita corretamenta observe o status do repositório no canto superior esquerdo da página. O status conterá a mensagem: *forked from experimenteBB/desafioBBCpuAfetiva*, conforme figura a seguir:
+
+<img src="img/fork_4.png">
+
+Para a entrega, você deverá criar um script chamado main_predict.py. Neste script, deve haver uma função *main()* que receberá uma imagem como parâmetro e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
 
 Você pode projetar seu modelo de classificação da forma que achar mais adequada, use a criatividade para isso. E lembre-se de criar um script para que possamos testar seu modelo em outras bases. 
 
