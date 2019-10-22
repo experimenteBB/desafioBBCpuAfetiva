@@ -61,7 +61,7 @@ Obs: A base de dados fornecida é exclusivamente para pesquisa. Não a utilize p
 ## Aonde e como entregar
 A entrega do desafio será feita por meio do **fork** deste repositório. Para isso, siga as seguintes instruções:
 
-1) Logue na sua conta do Github e em seguida acesse o repositório do [desafio BB](https://github.com/experimenteBB/desafioBBCpuAfetiva). Na página do repositório, clique no botão **Fork** localizado no canto superior direito da página:
+1) Logue na sua conta do Github e em seguida acesse o repositório do [desafio BB](https://github.com/experimenteBB/desafioBBCpuAfetiva). Na página do repositório, clique no botão "**Fork**" localizado no canto superior direito da página:
 
 <img src="img/fork_1.png">
 
@@ -77,15 +77,21 @@ A entrega do desafio será feita por meio do **fork** deste repositório. Para i
 
 <img src="img/fork_4.png">
 
-5) Quando você finalizar as modificações em seu código e quiser submeter para avaliação, selecione o botão **New pull request**:
+5) Quando você finalizar as modificações em seu código e quiser submeter para avaliação, selecione o botão "**New pull request**":
 
 <img src="img/mr_1.png">
 
-6) Por fim, na tela seguinte, será apresentado a você um comparativo das modificações que foram realizadas em todos os arquivos que você editou, adicionou ou excluiu. Confira se as modificações estão corretas e aperta o botão **Create pull request**
+6) Na tela seguinte, será apresentado a você um comparativo das modificações que foram realizadas em todos os arquivos que você editou, adicionou ou excluiu. Confira se as modificações estão corretas e aperta o botão "**Create pull request**":
 
 <img src="img/mr_2.png">
 
-PRONTO!!! Seu código foi encaminhado para nós. Você ainda pode continuar programando e submetendo novas versões. Fique a vontade para isso!
+7) Agora você deve dar um título ao seu *pull request*. Insira um título significativo, como no exemplo da imagem a seguir. E depois aperto no botão "**Create pull request**":
+
+<img src="img/mr_3.png">
+
+8) PRONTO!!! Seu código foi encaminhado para nós, conforme na imagem a seguir. Você ainda pode continuar programando e submetendo novas versões. Fique a vontade para isso!
+
+<img src="img/mr_4.png">
 
 Quanto à forma de entrega, você deverá criar um script chamado main_predict.py. Neste script, deve haver uma função *main()* que receberá uma imagem como parâmetro e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
 
