@@ -71,13 +71,23 @@ A entrega do desafio será feita por meio do **fork** deste repositório. Para i
 
 3) Uma cópia do repositório será feita para seu usuário. Aguarde por alguns minutos. A figura a seguir é exibida enquando o GitHub cria uam cópia para você.
 
-<img src="img/fork_3.png">
+<img src="img/fork_3.PNG">
 
 4) Quando o **fork** do repositório for concluído, você será redirecionado automaticamente para a cópia do repositório na sua conta do GtiHub. Para confirmar que a cópia foi feita corretamenta observe o status do repositório no canto superior esquerdo da página. O status conterá a mensagem: *forked from experimenteBB/desafioBBCpuAfetiva*, conforme figura a seguir:
 
 <img src="img/fork_4.png">
 
-Para a entrega, você deverá criar um script chamado main_predict.py. Neste script, deve haver uma função *main()* que receberá uma imagem como parâmetro e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
+5) Quando você finalizar as modificações em seu código e quiser submeter para avaliação, selecione o botão **New pull request**:
+
+<img src="img/mr_1.png">
+
+6) Por fim, na tela seguinte, será apresentado a você um comparativo das modificações que foram realizadas em todos os arquivos que você editou, adicionou ou excluiu. Confira se as modificações estão corretas e aperta o botão **Create pull request**
+
+<img src="img/mr_2.png">
+
+PRONTO!!! Seu código foi encaminhado para nós. Você ainda pode continuar programando e submetendo novas versões. Fique a vontade para isso!
+
+Quanto à forma de entrega, você deverá criar um script chamado main_predict.py. Neste script, deve haver uma função *main()* que receberá uma imagem como parâmetro e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
 
 Você pode projetar seu modelo de classificação da forma que achar mais adequada, use a criatividade para isso. E lembre-se de criar um script para que possamos testar seu modelo em outras bases. 
 
