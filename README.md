@@ -93,12 +93,12 @@ A entrega do desafio será feita por meio do **fork** deste repositório. Para i
 
 <img src="img/mr_4.png">
 
+9) Após estes passos encaminhe o link do pull request e user do github para ditec.gesti.inovacao@bb.com.br
+Ex: User github rnmourao, link https://github.com/experimenteBB/desafioBBCpuAfetiva/pull/1
+
 Quanto à forma de entrega, você deverá criar um script chamado main_predict.py. Neste script, deve haver uma função *main()* que receberá uma imagem como parâmetro e retornará um número correspondente a emoção da face presente na imagem, senda elas: 0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
 
 Você pode projetar seu modelo de classificação da forma que achar mais adequada, use a criatividade para isso. E lembre-se de criar um script para que possamos testar seu modelo em outras bases. 
-
-Após estes passos encaminhe o link do pull request e user do github para ditec.gesti.inovacao@bb.com.br
-Ex: User github rnmourao, link https://github.com/experimenteBB/desafioBBCpuAfetiva/pull/1
 
 Avaliaremos seu código e testaremos script em outra base de imagens faciais brasileiras, com as mesmas expressões faciais, para vermos quão robusto ele é (isto é, quantas faces/expressões são classificadas corretamente na nossa base de teste) e divulgaremos, ao final do evento, o resultado na Plataforma.
 
