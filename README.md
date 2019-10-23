@@ -97,6 +97,9 @@ Quanto à forma de entrega, você deverá criar um script chamado main_predict.p
 
 Você pode projetar seu modelo de classificação da forma que achar mais adequada, use a criatividade para isso. E lembre-se de criar um script para que possamos testar seu modelo em outras bases. 
 
+Após estes passos encaminhe o link do pull request e user do github para ditec.gesti.inovacao@bb.com.br
+Ex: User github rnmourao, link https://github.com/experimenteBB/desafioBBCpuAfetiva/pull/1
+
 Avaliaremos seu código e testaremos script em outra base de imagens faciais brasileiras, com as mesmas expressões faciais, para vermos quão robusto ele é (isto é, quantas faces/expressões são classificadas corretamente na nossa base de teste) e divulgaremos, ao final do evento, o resultado na Plataforma.
 
 Bom trabalho!
