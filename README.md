@@ -8,10 +8,15 @@
 ```
 git clone https://github.com/IvanAmador/desafioBBCpuAfetiva.git
 ```
-
+Instalar dependências em ambiente virtual (recomendado)
 
 ```
-pip install requirements.txt
+pipenv install -r requirements.txt
+```
+
+ou
+```
+pip install -r requirements.txt
 ```
 
 
