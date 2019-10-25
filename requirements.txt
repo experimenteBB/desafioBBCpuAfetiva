@@ -1,0 +1,6 @@
+opencv-python
+pandas
+tensorflow
+keras
+cmake
+dlib
