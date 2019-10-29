@@ -47,11 +47,11 @@ def getimagedataandlabels(root_dir, image_w, image_h):
     return np.array(X_data), np.array(Y_data)
 
 x_train, y_train = getimagedataandlabels(root_dir_train,image_w,image_h)
-print "Training data and labels loaded"
-print x_train.shape
-print y_train.shape
+print ("Training data and labels loaded")
+print (x_train.shape)
+print (y_train.shape)
 
-print "Test data and labels loaded"
+print ("Test data and labels loaded")
 x_test, y_test = getimagedataandlabels(root_dir_test,image_w,image_h)
-print x_test.shape
-print y_test.shape
+print (x_test.shape)
+print (y_test.shape)
