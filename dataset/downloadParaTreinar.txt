@@ -1,0 +1,7 @@
+Se vocês quiserem treinar com o meu emotion_training.py, por favor fazer o download dos dados no seguinte link:
+https://drive.google.com/file/d/19evwwjTISfKGy5Mkg-U23fuFubvhdefT/view?usp=drivesdk
+
+Ou baixar no Kaggle no seguinte link:
+https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+
+Na seção de Data.
