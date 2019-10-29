@@ -84,6 +84,26 @@ model.add(Dense(32, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(3, activation='softmax'))
 
+# Another model
+model.add(tf.keras.layers.Conv2D(filters=16, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu', input_shape=(256, 256, 3)))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.MaxPool2D(pool_size=(2, 2), strides=(2, 2), padding='valid'))
+model.add(tf.keras.layers.Dropout(rate=0.05))
+model.add(tf.keras.layers.Conv2D(filters=32, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.MaxPool2D(pool_size=(2, 2), strides=(2, 2), padding='valid'))
+model.add(tf.keras.layers.Dropout(rate=0.05))
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(units=64, activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Dropout(rate=0.10))
+model.add(tf.keras.layers.Dense(units=128, activation='relu'))
+model.add(tf.keras.layers.BatchNormalization())
+model.add(tf.keras.layers.Dropout(rate=0.10))
+model.add(tf.keras.layers.Dense(units=5, activation='softmax'))
+model.summary()
+
+
 model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
