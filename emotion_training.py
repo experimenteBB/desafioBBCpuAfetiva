@@ -170,12 +170,11 @@ model.summary()
 
 # # Mostra o sumario da rede
 # model.summary()
+
 model.compile(loss=categorical_crossentropy,
-              #optimizer=Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-7),
               optimizer=Adam(lr=0.0001, decay=1e-6),
               metrics=['accuracy'])
 
-#tensorboard = TensorBoard(log_dir='./logs')
 lr_reducer = ReduceLROnPlateau(monitor='val_loss', factor=0.9, patience=3, verbose=1)
 early_stopper = EarlyStopping(monitor='val_loss', min_delta=0, patience=8, verbose=1, mode='auto')
 checkpointer = ModelCheckpoint(MODELPATH, monitor='val_loss', verbose=1, save_best_only=True)
@@ -187,7 +186,7 @@ model.fit(np.array(X_train), np.array(y_train),
           validation_data=(np.array(X_test), np.array(y_test)),
           shuffle=True,
           callbacks=[lr_reducer, early_stopper, checkpointer])
-          #callbacks=[lr_reducer, tensorboard, early_stopper, checkpointer])
+
 
 scores = model.evaluate(np.array(X_test), np.array(y_test), batch_size=batch_size)
 print("Loss: " + str(scores[0]))
