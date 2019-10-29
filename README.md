@@ -9,8 +9,9 @@ Pacotes necessários à execução do script `main_predict.py`:
 - dlib
 - sklearn
 
-OBS: O arquivo `shape_predictor_68_face_landmarks.dat`, necessário à execução do script, pode ser baixado em: 
-> **`https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat`**
+**OBS:** 
+O arquivo `shape_predictor_68_face_landmarks.dat`, necessário à execução do script, pode ser baixado em: 
+`https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat`
 
 ## Instalação de dependências
 Os pacotes podem ser instalados conforme abaixo:
