@@ -5,7 +5,8 @@ from keras.models import load_model
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-emotion_dict = {0: "Angry", 1: "Disgust", 2: "Fear", 3: "Happy", 4: "Sad", 5: "Surprise", 6: "Neutral"}
+#emotion_dict = {0: "Angry", 1: "Disgust", 2: "Fear", 3: "Happy", 4: "Sad", 5: "Surprise", 6: "Neutral"}
+emotion_dict = {0: "neutra", 1: "feliz", 2: "triste", 3: "surpreso", 4: "bravo"}
 MODELPATH = "./models/model.h5"
 model = load_model(MODELPATH)
 
