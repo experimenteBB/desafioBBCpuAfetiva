@@ -5,7 +5,8 @@ from keras.models import load_model
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-emotion_dict = {0: "Angry", 1: "Disgust", 2: "Fear", 3: "Happy", 4: "Sad", 5: "Surprise", 6: "Neutral"}
+#emotion_dict = {0: "Angry", 1: "Disgust", 2: "Fear", 3: "Happy", 4: "Sad", 5: "Surprise", 6: "Neutral"}
+emotion_dict = {0: "neutra", 1: "feliz", 2: "triste", 3: "surpreso", 4: "bravo"}
 MODELPATH = "./models/model.h5"
 model = load_model(MODELPATH)
 
@@ -35,16 +36,7 @@ if __name__ == '__main__':
          
          #Converte pro modo BB
          #0-neutra; 1-feliz; 2-triste; 3-surpreso; e 4-bravo.
-         if(emotion_dict[int(np.argmax(prediction))] == "Neutral"):
-            print("0")
-         elif(emotion_dict[int(np.argmax(prediction))] == "Happy"):
-            print("1")
-         elif(emotion_dict[int(np.argmax(prediction))] == "Sad" or emotion_dict[int(np.argmax(prediction))] == "Fear"):
-            print("2")
-         elif(emotion_dict[int(np.argmax(prediction))] == "Surprise"):
-            print("3")
-         elif(emotion_dict[int(np.argmax(prediction))] == "Angry" or emotion_dict[int(np.argmax(prediction))] == "Disgust"):
-            print("4")
+         print(int(np.argmax(prediction)))
          
 
       # Display the output
