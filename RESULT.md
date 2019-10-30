@@ -10,5 +10,7 @@ dimasguilherme	|	1.0	|	--
 igorcardosobb	|	1.0	|	58	
 jangelojr	|	1.0	|	--	
 juliano-git |	1.0	|	60
+igorcardosobb	|	2.0	|	60	
+
 
 Obs: O campo **ACC(%)** corresponde ao percentual da acurácia do teste realizado no modelo com a base de validação.
