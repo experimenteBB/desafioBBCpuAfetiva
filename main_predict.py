@@ -16,7 +16,6 @@ if __name__ == '__main__':
       print("Por favor informe o caminho de uma imagem...")
       sys.exit()
    else:
-      print("Detectando emoção na image...")
       img = cv2.imread(str(sys.argv[1]))
 
       # Convert into grayscale
