@@ -8,7 +8,7 @@ felipec3	|	1.0	|	64
 adspacheco	|	1.0	|	62	
 dimasguilherme	|	1.0	|	--	
 igorcardosobb	|	1.0	|	58	
-jangelojr	|	1.0	|	--	
+jangelojr	|	1.0	|	62	
 juliano-git |	1.0	|	60
 igorcardosobb	|	2.0	|	60	
 bruno990 	|	1.0	|	60	
