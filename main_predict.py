@@ -56,9 +56,9 @@ def predict(img_path, showImage=False):
     return TRANSLATE[preds.argmax()]
 
 def main():
-    image = 'images.jpeg'
-    #image = sys.argv[1]
-    print(predict(image, True))
+    #image = 'images.jpeg'
+    image = sys.argv[1]
+    print(predict(image, False))
     
 if __name__ == '__main__':
     main()
