@@ -22,7 +22,7 @@ def predict(img_path, showImage=False):
     
     # parameters for loading data and images
     detection_model_path = 'haarcascade/haarcascade_frontalface_default.xml'
-    model = load_model('models/best_model.hdf5', compile=False)
+    model = load_model('best_model.hdf5', compile=False)
     
     #0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral
     
